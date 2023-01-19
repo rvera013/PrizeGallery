@@ -1,0 +1,11 @@
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\bin\Debug\PrizeGallery.exe.config
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\bin\Debug\PrizeGallery.exe
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\bin\Debug\PrizeGallery.pdb
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\bin\Debug\PrizeGallery.xml
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.vbprojAssemblyReference.cache
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.Resources.resources
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.vbproj.GenerateResource.cache
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.vbproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.exe
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.xml
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.pdb
