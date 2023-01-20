@@ -29,7 +29,7 @@ Partial Class frmMain
         Me.Label3 = New System.Windows.Forms.Label()
         Me.lblPriceVal = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.lblForfeit = New System.Windows.Forms.Label()
         Me.btnStart = New System.Windows.Forms.Label()
         Me.btnStop = New System.Windows.Forms.Label()
         Me.btnQuit = New System.Windows.Forms.Label()
@@ -104,17 +104,17 @@ Partial Class frmMain
         Me.Label5.Text = "Prize Value"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label2
+        'lblForfeit
         '
-        Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Red
-        Me.Label2.Location = New System.Drawing.Point(13, 265)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(139, 30)
-        Me.Label2.TabIndex = 6
-        Me.Label2.Text = "You Lose!"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblForfeit.BackColor = System.Drawing.Color.Transparent
+        Me.lblForfeit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblForfeit.ForeColor = System.Drawing.Color.Red
+        Me.lblForfeit.Location = New System.Drawing.Point(13, 265)
+        Me.lblForfeit.Name = "lblForfeit"
+        Me.lblForfeit.Size = New System.Drawing.Size(139, 30)
+        Me.lblForfeit.TabIndex = 6
+        Me.lblForfeit.Text = "You Lose!"
+        Me.lblForfeit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnStart
         '
@@ -173,7 +173,7 @@ Partial Class frmMain
         Me.Controls.Add(Me.btnQuit)
         Me.Controls.Add(Me.btnStop)
         Me.Controls.Add(Me.btnStart)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.lblForfeit)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.lblPriceVal)
         Me.Controls.Add(Me.Label3)
@@ -195,7 +195,7 @@ Partial Class frmMain
     Friend WithEvents Label3 As Label
     Friend WithEvents lblPriceVal As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Label2 As Label
+    Friend WithEvents lblForfeit As Label
     Friend WithEvents btnStart As Label
     Friend WithEvents btnStop As Label
     Friend WithEvents btnQuit As Label

@@ -9,3 +9,4 @@ C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.vbp
 C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.exe
 C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.xml
 C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.pdb
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.frmMain.resources

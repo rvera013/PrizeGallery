@@ -22,5 +22,10 @@ PrizeGallery
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:PrizeGallery.My.Resources.Resources.prize_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>
