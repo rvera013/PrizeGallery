@@ -22,6 +22,7 @@ Partial Class frmMain
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lblResult = New System.Windows.Forms.Label()
         Me.lblWinnings = New System.Windows.Forms.Label()
@@ -32,6 +33,9 @@ Partial Class frmMain
         Me.btnStart = New System.Windows.Forms.Label()
         Me.btnStop = New System.Windows.Forms.Label()
         Me.btnQuit = New System.Windows.Forms.Label()
+        Me.picPrize = New System.Windows.Forms.PictureBox()
+        Me.timSpin = New System.Windows.Forms.Timer(Me.components)
+        CType(Me.picPrize, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -40,7 +44,7 @@ Partial Class frmMain
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(776, 77)
+        Me.Label1.Size = New System.Drawing.Size(776, 57)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Panther Price Gallery - Spin to Win Prices"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -83,9 +87,9 @@ Partial Class frmMain
         Me.lblPriceVal.BackColor = System.Drawing.Color.White
         Me.lblPriceVal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblPriceVal.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPriceVal.Location = New System.Drawing.Point(21, 141)
+        Me.lblPriceVal.Location = New System.Drawing.Point(18, 141)
         Me.lblPriceVal.Name = "lblPriceVal"
-        Me.lblPriceVal.Size = New System.Drawing.Size(150, 49)
+        Me.lblPriceVal.Size = New System.Drawing.Size(153, 47)
         Me.lblPriceVal.TabIndex = 4
         Me.lblPriceVal.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
@@ -148,12 +152,24 @@ Partial Class frmMain
         Me.btnQuit.Text = "Quit"
         Me.btnQuit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'picPrize
+        '
+        Me.picPrize.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.picPrize.Image = Global.PrizeGallery.My.Resources.Resources.prize_1
+        Me.picPrize.Location = New System.Drawing.Point(207, 72)
+        Me.picPrize.Name = "picPrize"
+        Me.picPrize.Size = New System.Drawing.Size(174, 263)
+        Me.picPrize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.picPrize.TabIndex = 10
+        Me.picPrize.TabStop = False
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Linen
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.picPrize)
         Me.Controls.Add(Me.btnQuit)
         Me.Controls.Add(Me.btnStop)
         Me.Controls.Add(Me.btnStart)
@@ -167,7 +183,9 @@ Partial Class frmMain
         Me.ForeColor = System.Drawing.Color.DarkBlue
         Me.Name = "frmMain"
         Me.Text = "Mystery Prices"
+        CType(Me.picPrize, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -181,4 +199,6 @@ Partial Class frmMain
     Friend WithEvents btnStart As Label
     Friend WithEvents btnStop As Label
     Friend WithEvents btnQuit As Label
+    Friend WithEvents picPrize As PictureBox
+    Friend WithEvents timSpin As Timer
 End Class
