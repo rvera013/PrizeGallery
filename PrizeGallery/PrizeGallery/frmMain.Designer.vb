@@ -109,19 +109,20 @@ Partial Class frmMain
         Me.lblForfeit.BackColor = System.Drawing.Color.Transparent
         Me.lblForfeit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblForfeit.ForeColor = System.Drawing.Color.Red
-        Me.lblForfeit.Location = New System.Drawing.Point(13, 265)
+        Me.lblForfeit.Location = New System.Drawing.Point(16, 278)
         Me.lblForfeit.Name = "lblForfeit"
         Me.lblForfeit.Size = New System.Drawing.Size(139, 30)
         Me.lblForfeit.TabIndex = 6
         Me.lblForfeit.Text = "You Lose!"
         Me.lblForfeit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblForfeit.Visible = False
         '
         'btnStart
         '
         Me.btnStart.BackColor = System.Drawing.Color.White
         Me.btnStart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.btnStart.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnStart.Location = New System.Drawing.Point(18, 304)
+        Me.btnStart.Location = New System.Drawing.Point(18, 319)
         Me.btnStart.Name = "btnStart"
         Me.btnStart.Size = New System.Drawing.Size(153, 31)
         Me.btnStart.TabIndex = 7
@@ -133,7 +134,7 @@ Partial Class frmMain
         Me.btnStop.BackColor = System.Drawing.Color.White
         Me.btnStop.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.btnStop.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnStop.Location = New System.Drawing.Point(18, 344)
+        Me.btnStop.Location = New System.Drawing.Point(18, 359)
         Me.btnStop.Name = "btnStop"
         Me.btnStop.Size = New System.Drawing.Size(153, 31)
         Me.btnStop.TabIndex = 8
@@ -145,7 +146,7 @@ Partial Class frmMain
         Me.btnQuit.BackColor = System.Drawing.Color.White
         Me.btnQuit.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.btnQuit.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnQuit.Location = New System.Drawing.Point(18, 385)
+        Me.btnQuit.Location = New System.Drawing.Point(18, 400)
         Me.btnQuit.Name = "btnQuit"
         Me.btnQuit.Size = New System.Drawing.Size(153, 31)
         Me.btnQuit.TabIndex = 9
@@ -162,6 +163,9 @@ Partial Class frmMain
         Me.picPrize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.picPrize.TabIndex = 10
         Me.picPrize.TabStop = False
+        '
+        'timSpin
+        '
         '
         'frmMain
         '

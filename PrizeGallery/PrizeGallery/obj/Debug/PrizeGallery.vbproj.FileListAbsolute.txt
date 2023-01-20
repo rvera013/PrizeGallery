@@ -10,3 +10,7 @@ C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.exe
 C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.xml
 C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.pdb
 C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\obj\Debug\PrizeGallery.frmMain.resources
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\bin\Debug\Resources\consolation prize.png
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\bin\Debug\Resources\prize-2.png
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\bin\Debug\Resources\prize-3.png
+C:\Users\Owner\source\repos\PrizeGallery\PrizeGallery\bin\Debug\Resources\prize-1.png

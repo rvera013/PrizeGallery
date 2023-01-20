@@ -45,10 +45,35 @@
             Case Else 'default. For any other value no in the case statement"
                 intPriceNum = 4
                 sngPrizeVal = 0
-                strImage = "consolation price.png"
+                strImage = "consolation prize.png"
                 picPrize.SizeMode = PictureBoxSizeMode.Zoom
                 lblForfeit.Visible = True
 
         End Select
+        lblPriceVal.Text = FormatCurrency(sngPrizeVal)
+        If intSpinVal < 300 Then
+            sngWinnings += sngPrizeVal
+        Else
+            sngWinnings = 0 'wipe out all accumulated winnings'
+        End If
+        lblWinnings.Text = FormatCurrency(sngWinnings)
+        picPrize.Load("Resources\" & strImage)
+    End Sub
+
+    Private Sub btnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
+        Dim intResult As Integer
+        intResult = MessageBox.Show("You will forfeit your winnings if you forfeit now. Do you want to quit?", "waning!", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+        If intResult = DialogResult.No Then
+            Exit Sub 'early jump out of the end of the procedure'
+        End If
+        Application.Exit()
+    End Sub
+
+    Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub lblForfeit_Click(sender As Object, e As EventArgs) Handles lblForfeit.Click
+
     End Sub
 End Class
